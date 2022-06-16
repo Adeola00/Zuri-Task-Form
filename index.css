@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background-image: url('bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+}
+main{
+    float: left;
+    margin-top:15%;
+    padding-left: 10%;
+    color: white;
+    width: 50%;
+}
+main h1{
+    padding-bottom: 20px;
+}
+
+section{
+    float: right;
+    text-align: center;
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.freetrial{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    color: gainsboro;
+    font-weight: lighter;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    border: none;
+}
+.bold{
+    color: white;
+}
+
+form{
+    background-color: white;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    width: 80%;
+    height: 90%;
+    
+    
+}
+#firstName{
+    margin-top: 10%;
+}
+form input{
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 1rem;
+	height: 40px;
+    border: 0.5px lightgray solid;
+   
+}
+input:invalid {
+    border: 2px solid hsl(0, 100%, 74%) ;
+}
+.claim-button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 80%;
+    height: 45px;
+    border: 0px white solid;
+    border-radius: 10px;
+}
+.terms{
+    font-size: 10px;
+    color: gray;
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        background-image: url('bg-intro-desktop.png');
+        background-color: hsl(0, 100%, 74%);
+        font-size: 28px;
+    }
+    main{
+        float: left;
+        margin-top:30%;
+        padding-left: 5%;
+        color: white;
+        width: 50%;
+        font-size: 24px;
+    }
+    main h1{
+        padding-bottom: 20px;
+    }
+    section{
+        float: right;
+        text-align: center;
+        width: 40%;
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+    .freetrial{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        width: 100%;
+        padding: 20px 5px 20px 5px;
+        height: 100px;
+        color: gainsboro;
+        font-weight: lighter;
+        background-color: hsl(248, 32%, 49%);
+        border-radius: 10px;
+        border: none;
+        font-size: 28px;
+    }
+    .bold{
+        color: white;
+    }
+    
+    form{
+        background-color: white;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        border-radius: 10px;
+        width: 100%;
+    }
+    form input{
+        width: 90%;
+        border-radius: 5px;
+        padding-left: 1rem;
+        height: 100px;
+        border: 0.5px lightgray solid;
+        font-size: 28px;
+    } 
+    input:invalid {
+        border: 2px solid hsl(0, 100%, 74%) ;
+    }
+    .claim-button{
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        width: 80%;
+        padding: 20px 0 20px 0;
+        height: 100px;
+        border: 0px white solid;
+        border-radius: 10px;
+        font-size: 28px;
+    }
+    .terms{
+        font-size: 14px;
+        color: gray;
+    }   
+}
+
+@media screen and (max-width: 375px){   
+
+    body{
+        background-image:url('bg-intro-mobile.png');
+    }
+    main{
+        margin: 0,auto;
+        text-align: center;
+        color: white;
+        width: 90%;
+
+    }
+    section{
+        margin: 0,auto;
+        text-align: center;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .freetrial{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 100%;
+        padding: 15px 50px 15px 50px;
+        color: gainsboro;
+        background-color: hsl(248, 32%, 49%);
+        border-radius: 5px;
+        border: none;
+    }
+    .bold{
+        color: white;
+    }
+    form{
+        background-color: white;
+        margin-bottom: 25%;
+        border-radius: 10px;
+        width: 80%;
+        
+        
+        
+    }
+    input:invalid {
+        border: 2px solid hsl(0, 100%, 74%) ;
+    }
+    .claim-button{
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        width: 85%;
+        height: 45px;
+        border: 0px white solid;
+        border-radius: 5px;
+
+    }
+    
+}
