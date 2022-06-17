@@ -68,8 +68,21 @@ form input{
     border: 0.5px lightgray solid;
    
 }
-input:invalid {
-    border: 2px solid hsl(0, 100%, 74%) ;
+input:required:invalid {
+    outline: none;
+    border: none;
+    background-image:url('icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    border: 1px solid hsl(0, 100%, 74%) ;
+    padding-right: 5%;
+}
+
+input:invalid{
+    outline: none;
+    border: none;
+    border:  1px solid hsl(0, 100%, 74%) ;
 }
 .claim-button{
     background-color: hsl(154, 59%, 51%);
@@ -142,7 +155,19 @@ input:invalid {
         border: 0.5px lightgray solid;
         font-size: 28px;
     } 
+    input:required:invalid {
+        outline: none;
+        border: none;
+        background-image:url('icon-error.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-origin: content-box;
+        border: 1px solid hsl(0, 100%, 74%) ;
+        padding-right: 5%;
+    }
+    
     input:invalid {
+        outline: none;
         border: 2px solid hsl(0, 100%, 74%) ;
     }
     .claim-button{
@@ -199,11 +224,20 @@ input:invalid {
         margin-bottom: 25%;
         border-radius: 10px;
         width: 80%;
-        
-        
-        
     }
+    input:required:invalid {
+        outline: none;
+        border: none;
+        background-image:url('icon-error.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-origin: content-box;
+        border: 1px solid hsl(0, 100%, 74%) ;
+        padding-right: 5%;
+    }
+    
     input:invalid {
+        outline: none;
         border: 2px solid hsl(0, 100%, 74%) ;
     }
     .claim-button{
